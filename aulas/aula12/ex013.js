@@ -1,5 +1,5 @@
 var agora = new Date()
-var diaSem = 7
+var diaSem = agora.getDay()
 
 // 0 = Domingo
 // 1 = Segunda
@@ -9,7 +9,7 @@ var diaSem = 7
 // 5 = Sexta
 // 6 = Sábado
 
-// console.log(diaSem)
+console.log(diaSem)
 
 switch (diaSem) {
     case 0:
